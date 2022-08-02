@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.RealTimeTestCases.Fb_Crct_Username">
+      <class name="com.TestNgF.TimeOut_InvocationCount">
         <methods>
-          <include name="crctusername"/>
+          <include name="timeup"/>
         </methods>
-      </class> <!-- com.RealTimeTestCases.Fb_Crct_Username -->
+      </class> <!-- com.TestNgF.TimeOut_InvocationCount -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
