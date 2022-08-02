@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<groups>
+			<define name="chinese products">
+				<include name="motorola"></include>
+				<include name="lenovo"></include>
+			</define>
+			<define name="american products">
+				<include name="apple"></include>
+				<include name="dell"></include>
+			</define>
+			<run>
+				<include name="american products"></include>
+				<exclude name="chinese products"></exclude>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.TestNgF.Groups_Testing" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
