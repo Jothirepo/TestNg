@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TestNgF.TimeOut_InvocationCount">
+      <class name="com.Listeners.Implementation_Class">
         <methods>
-          <include name="timeup"/>
+          <include name="insta"/>
+          <include name="fb"/>
+          <include name="launch"/>
         </methods>
-      </class> <!-- com.TestNgF.TimeOut_InvocationCount -->
+      </class> <!-- com.Listeners.Implementation_Class -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

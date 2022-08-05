@@ -2,15 +2,17 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <listeners>
-    <listener class-name="com.retry.Transformer"/>
+    <listener class-name="com.Listeners.ListenerMethods"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="newlytest(failed)">
     <classes>
-      <class name="com.retry.Login">
+      <class name="com.Listeners.Implementation_Class">
         <methods>
-          <include name="sample"/>
+          <include name="insta"/>
+          <include name="fb"/>
+          <include name="launch"/>
         </methods>
-      </class> <!-- com.retry.Login -->
+      </class> <!-- com.Listeners.Implementation_Class -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- newlytest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -12,9 +12,13 @@ public class TimeOut_InvocationCount {
 	}
 	
 	@Test (timeOut = 2000)
+	
 	public void timeup() throws InterruptedException {
 
 		Thread.sleep(3000);
 		System.out.println("expected time doesn't match with actual time");
 	}
+	
+
 }
+

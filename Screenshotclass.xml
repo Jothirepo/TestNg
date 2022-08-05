@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.Listeners.ListenerMethods"></listener>
+	</listeners>
+	<test name="newlytest">
+		<classes>
+			<class name="com.Listeners.Implementation_Class">
+			<methods>
+				<include name="fb"></include>
+				<include name="insta"></include>
+			</methods>
+			</class>
+		</classes>
+	</test>
+</suite> <!-- Suite -->
