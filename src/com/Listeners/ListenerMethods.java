@@ -55,14 +55,14 @@ public class ListenerMethods extends Base_Class implements ITestListener {
 	@Override
 	public void onStart(ITestContext context) {
 		
-		System.out.println("on start");
+		System.out.println("on start of the testclass");
 		
 	}
 
 	@Override
 	public void onFinish(ITestContext context) {
 	
-		System.out.println("on finish");
+		System.out.println("on finish of the testclass");
 	
 	}
 
