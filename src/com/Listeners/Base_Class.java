@@ -20,7 +20,8 @@ public static WebDriver driver;
 
 
 		System.setProperty("webdriver.edge.driver",
-				"C:\\Users\\jovin\\Pictures\\Screenshots\\TestNgFrameWork\\msedgedriver.exe");
+				"C:\\Users\\jovin\\Pictures\\Screenshots\\TestNgFrameWork\\msedgedriver.exe"); 		//(WebDriverManager.chromedriver().setup(); can be used)
+		
 		
 		driver = new EdgeDriver();
 
